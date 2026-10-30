@@ -1,0 +1,22 @@
+# Java / Maven
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
